@@ -5,10 +5,10 @@ class ListingForm(ModelForm):
     class Meta:
         model = Listing
         fields = [
-            "title"
-            "price"
-            "num_bedrooms"
-            "num_bathrooms"
-            "sq_foot"
-            "address"
+            "title",
+            "price",
+            "num_bedrooms",
+            "num_bathrooms",
+            "sq_foot",
+            "address",
         ]
